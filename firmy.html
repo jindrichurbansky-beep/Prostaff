@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pro firmy – ProStaff</title>
+  <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+  <div class="obal lista">
+    <a class="znacka" href="index.html" aria-label="Domů">
+      <div class="znacka-znak">PS</div>
+      <div class="znacka-nadpis">
+        <strong>ProStaff</strong>
+        <span>Personální agentura</span>
+      </div>
+    </a>
+    <nav aria-label="Hlavní navigace">
+      <ul>
+        <li><a href="index.html">Nabídky</a></li>
+        <li><a href="kandidati.html">Pro kandidáty</a></li>
+        <li><a href="firmy.html">Pro firmy</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  
+
+<section class="podstranka-uvod varianta firmy">
+      <div class="obal vnitrni">
+        <span class="pill">Pro firmy</span>
+        <h1>Spolehlivé obsazení směn</h1>
+        <p>Dodáme ověřené kandidáty do výroby, skladu, údržby i úklidu. Rychle a férově.</p>
+      </div>
+    </section>
+
+    <section class="sekce sekce-cela">
+      <div class="obal">
+        <h1>Pro firmy</h1>
+        <form class="karta" action="diky-firma.html" method="get">
+          <label>Název pozice
+            <input class="vstup" type="text" name="title" placeholder="Skladník / Údržbář" required>
+          </label>
+          <div class="mrizka mrizka-2">
+            <label>Město
+              <input class="vstup" type="text" name="city" placeholder="Praha / Ostrava" required>
+            </label>
+            <label>Typ úvazku
+              <select class="vyber" name="type">
+                <option>Plný úvazek</option>
+                <option>Zkrácený úvazek</option>
+                <option>Směnný provoz</option>
+                <option>Brigáda / DPP</option>
+              </select>
+            </label>
+          </div>
+          <label>Platové rozmezí
+            <input class="vstup" type="text" name="salary" placeholder="např. 150–190 Kč/h">
+          </label>
+          <label>Popis
+            <textarea class="textova-oblast" rows="4" name="desc" placeholder="Krátký popis pracovní náplně…"></textarea>
+          </label>
+          <div class="akce">
+            <button class="tlacitko" type="submit">Odeslat nabídku</button>
+            <a class="tlacitko tlacitko-obrys" href="index.html">Zrušit</a>
+          </div>
+          <p class="formular-note">Ukázka bez serveru: po „odeslání“ se zobrazí potvrzení.</p>
+        </form>
+      </div>
+    </section>
+  
+    <section class="sekce">
+      <div class="obal">
+        <h2>Proč s námi</h2>
+        <div class="hodnoty">
+          <div class="hodnota"><p class="zvyrazneni">Rychlost</p><p class="muted">První kandidáti obvykle do 48 h.</p></div>
+          <div class="hodnota"><p class="zvyrazneni">Kvalita</p><p class="muted">Prescreen, ověření docházky a zkušeností.</p></div>
+          <div class="hodnota"><p class="zvyrazneni">flexibilita</p><p class="muted">Dočasné přidělení, DPP i nábor natrvalo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sekce">
+      <div class="obal">
+        <h2>Modely spolupráce</h2>
+        <div class="cenik">
+          <div class="cenik-karta">
+            <h3>Success fee</h3>
+            <ul class="muted">
+              <li>Platba až po nástupu</li>
+              <li>Garance výměny</li>
+              <li>Vhodné pro kmenové pozice</li>
+            </ul>
+          </div>
+          <div class="cenik-karta">
+            <h3>Dočasné přidělení</h3>
+            <ul class="muted">
+              <li>Kmen ProStaff, řízení směn</li>
+              <li>Reporty a docházka</li>
+              <li>Vhodné pro špičky</li>
+            </ul>
+          </div>
+          <div class="cenik-karta">
+            <h3>Brigády / DPP</h3>
+            <ul class="muted">
+              <li>Rychlé pokrytí</li>
+              <li>Výplata přes agenturu</li>
+              <li>Krátkodobé záskoky</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sekce">
+      <div class="obal">
+        <h2>Proces</h2>
+        <div class="casova-osa">
+          <div class="krok"><p class="zvyrazneni">brief</p><p class="muted">Parametry pozice, směny, mzda.</p></div>
+          <div class="krok"><p class="zvyrazneni">sourcering</p><p class="muted">Cílené oslovení, prescreening.</p></div>
+          <div class="krok"><p class="zvyrazneni">Doporučení</p><p class="muted">3 kandidáti + poznámky.</p></div>
+          <div class="krok"><p class="zvyrazneni">Nástup</p><p class="muted">Onboarding, koordinace směn.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sekce">
+      <div class="obal">
+        <h2>Co umíme obsadit</h2>
+        <div class="hodnoty">
+          <div class="hodnota"><p class="zvyrazneni">Stavba a řemesla</p><p class="muted">Dělníci, zedníci, tesaři…</p></div>
+          <div class="hodnota"><p class="zvyrazneni">Údržba</p><p class="muted">Údržbáři, mechanici, elektro junior…</p></div>
+          <div class="hodnota"><p class="zvyrazneni">Sklad a Logistika</p><p class="muted">Skladníci, pickeři, VZV…</p></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+  <footer>
+  <div class="obal paticka-obsah">
+    <div class="znacka small">
+      <div class="znacka-znak">PS</div>
+      <div class="znacka-nadpis"><p class="zvyrazneni">ProStaff</p><span>People • Precision • Placement</span></div>
+    </div>
+    <p class="paticka-text">© 2025 ProStaff. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+</body>
+</html>

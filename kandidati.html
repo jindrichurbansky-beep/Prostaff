@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pro kandidáty – ProStaff</title>
+  <link href="css/styles.css" rel="stylesheet"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+  <div class="obal lista">
+    <a class="znacka" href="index.html" aria-label="Domů">
+      <div class="znacka-znak">PS</div>
+      <div class="znacka-nadpis">
+        <strong>ProStaff</strong>
+        <span>Personální agentura</span>
+      </div>
+    </a>
+    <nav aria-label="Hlavní navigace">
+      <ul>
+        <li><a href="index.html">Nabídky</a></li>
+        <li><a href="kandidati.html">Pro kandidáty</a></li>
+        <li><a href="firmy.html">Pro firmy</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  
+
+<section class="podstranka-uvod varianta kandidati">
+      <div class="obal vnitrni">
+        <span class="pill">Pro kandidáty</span>
+        <h1>Najdeme ti práci, co sedí</h1>
+        <p>Stačí poslat kontakt. Krátký rozhovor a doporučíme ti nabídky do 48 hodin.</p>
+      </div>
+    </section>
+
+    <section class="sekce sekce-cela">
+      <div class="obal">
+        <h1>Pro kandidáty</h1>
+        <form class="karta" action="diky-kandidat.html" method="get">
+          <label>Jméno
+            <input class="vstup" type="text" name="name" placeholder="Jan Novák" required>
+          </label>
+          <label>E‑mail
+            <input class="vstup" type="email" name="email" placeholder="jan.novak@example.cz" required>
+          </label>
+          <label>Město
+            <input class="vstup" type="text" name="city" placeholder="Praha, Brno…">
+          </label>
+          <label>Preferovaná pozice
+            <input class="vstup" id="roleField" type="text" name="role" placeholder="Dělník, Údržbář, Skladník…">
+          </label>
+          <label>Poznámka
+            <textarea class="textova-oblast" rows="4" name="note" placeholder="Krátce o sobě…"></textarea>
+          </label>
+          <button class="tlacitko" type="submit">Odeslat</button>
+          <p class="formular-note">Ukázka bez serveru: data se předají na poděkovací stránku.</p>
+        </form>
+      </div>
+    </section>
+  
+    <section class="sekce">
+      <div class="obal">
+        <h2>Výhody pro tebe</h2>
+        <div class="hodnoty">
+          <div class="hodnota"><p class="zvyrazneni">Rychlé recenze</p><p class="muted">Do 48 h se ozveme s návrhem pozic.</p></div>
+          <div class="hodnota"><p class="zvyrazneni">Férové podmínky</p><p class="muted">Jednoduché smlouvy, výplaty včas.</p></div>
+          <div class="hodnota"><p class="zvyrazneni">Podpora koordinatora</p><p class="muted">Pomoc s nástupem i v průběhu práce.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sekce">
+      <div class="obal">
+        <h2>Jak to probíhá</h2>
+        <div class="casova-osa">
+          <div class="krok"><p class="zvyrazneni">Kontakt</p><p class="muted">Pošli kontakty a krátce o sobě.</p></div>
+          <div class="krok"><p class="zvyrazneni">Prescrean</p><p class="muted">Telefonát 10–15 minut.</p></div>
+          <div class="krok"><p class="zvyrazneni">Nabídky</p><p class="muted">Doporučíme 1–3 nabídky.</p></div>
+          <div class="krok"><p class="zvyrazneni">Nástup</p><p class="muted">Dohodneme termín, vše připravíme.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sekce">
+      <div class="obal">
+        <h2>Co si připravit</h2>
+        <div class="mrizka mrizka-2">
+          <div class="karta">
+            <ul class="seznam-kontrolni">
+              <li>Kontakty (telefon, e‑mail)</li>
+              <li>Město / dostupnost</li>
+              <li>Zkušenosti a dovednosti</li>
+              <li>Požadovaná mzda / směny</li>
+            </ul>
+          </div>
+          <div class="karta">
+            <h3>Napiš nám</h3>
+            <form class="formular-jednoduchy">
+              <label>Jméno<input class="vstup" type="text" placeholder="Jan Novák"></label>
+              <label>E‑mail<input class="vstup" type="email" placeholder="jan.novak@example.cz"></label>
+              <label>Zpráva<textarea class="textova-oblast" rows="3" placeholder="Krátce o sobě…"></textarea></label>
+              <div class="akce"><button class="tlacitko" type="button">Odeslat</button></div>
+              <p class="formular-note">Ukázkový formulář – bez odesílání.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</main>
+  <footer>
+  <div class="obal paticka-obsah">
+    <div class="znacka small">
+      <div class="znacka-znak">PS</div>
+      <div class="znacka-nadpis"><strong>ProStaff</strong><span>People • Precision • Placement</span></div>
+    </div>
+    <p class="paticka-text">© 2025 ProStaff. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+</body>
+</html>
